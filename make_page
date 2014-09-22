@@ -151,8 +151,4 @@ if [ "$interactive" = "1" ]; then
     fi
 fi
 
-
-
-# Write page (comment out until testing is complete)
-
- write_page > $filename
+write_page > $filename
